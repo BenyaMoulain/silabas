@@ -86,7 +86,7 @@ def guegui(c):
 
 def diptongo(trozo):
 	if len(trozo) < 2: return False
-	if trozo[0:2] in [u'ai', u'au', u'ei', u'eu', u'io', u'ou', u'ia', u'ua', u'ie', u'ue', u'oi', u'uo', u'ui', u'iu']: return True
+	if trozo[0:2] in [u'ai', u'ái', u'au', u'ái', u'ei', u'éi', u'eu', u'éu', u'io', u'ió', u'ou', u'óu', u'ia', u'iá', u'ua', u'uá', u'ie', u'ié', u'ue', u'ué', u'oi', u'ói', u'uo', u'uó', u'ui', u'uí' u'iu', u'iú']: return True
 	if len(trozo) == 2 and trozo in [u'ay', u'ey', u'oy']: return True
 	return False
 
